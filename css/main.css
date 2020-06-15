@@ -1,0 +1,281 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    z-index: 100;
+
+    font-size: 1.2em;
+
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav .intermono-logo {
+    display: inline-block;
+    z-index: 101;
+    width: 10em;
+    height: auto;
+    margin-left: 8em;
+    font-size: 1rem;
+}
+
+nav ul {
+    display: inline-block;
+    margin-right: 8rem;
+    /* text-align: right; */
+
+}
+
+nav li {
+    margin: 0 1rem;
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(10, 125, 159);
+
+}
+
+
+
+
+#fullpage {
+    font-size: 2vh;
+}
+
+.section {
+    background-size: cover;
+    background-position: center;
+}
+
+.section .fp-tableCell {
+    padding-left: 8em;
+}
+
+.section .greeting_wrapper {
+    width: 40%;
+    border-radius: 4%;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(30, 175, 209, 0.2); */
+    padding: 1em;
+}
+
+.section .greeting {
+    font-size: 1.8em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+
+}
+
+.section .greeting_statement {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 1.2em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    line-height: 1.4;
+    color: aliceblue;
+    font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+
+}
+
+.section .company_wrapper {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgba(30, 175, 209, 0.2); */
+    padding: 1em;
+}
+
+.section .company-text-wrapper {
+    width: 60%;
+}
+
+.section .profile-img {
+    display: inline-block;
+    background-image: url(../img/work_case_photos/profile_photo.JPG);
+    background-size: cover;
+    background-position: center;
+
+    width: 20em;
+    height: 20em;
+    border: 0.5em solid rgba(10, 125, 159, 0.6);
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.section .company_name {
+    font-size: 1.4em;
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); */
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+
+}
+
+.section .company_desc {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 1.1em;
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); */
+    line-height: 1.4;
+    color: aliceblue;
+    font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+
+}
+
+.section .ceo-name {
+    color: aliceblue;
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+
+}
+
+.section .construction-wrapper {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 6%;
+}
+
+.section .construction_case_title {
+    /* width: 40%; */
+    font-size: 1.9rem;
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+}
+
+.section .construction_case_desc {
+    /* width: 40%; */
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+}
+
+
+.section_photo_main {
+    background-image: url(../img/work_case_photos/field_photo_woodworking.jpg);
+
+}
+
+/* .section_photo_1 {
+    background-image: url(../img/work_case_photos/field_photo_0_2.jpg);
+} */
+
+/* 섹션에 슬라이드가 포함된 경우 */
+
+.section_photo_2 .slide[data-anchor="slide1"] {
+    background-image: url(../img/work_case_photos/field_photo_0_1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section_photo_2 .slide[data-anchor="slide2"] {
+    background-image: url(../img/work_case_photos/field_photo_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section_photo_2 .slide[data-anchor="slide3"] {
+    background-image: url(../img/work_case_photos/field_photo_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section_photo_2 .slide[data-anchor="slide4"] {
+    background-image: url(../img/work_case_photos/field_photo_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section_photo_2 .slide[data-anchor="slide5"] {
+    background-image: url(../img/work_case_photos/field_photo_4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section_photo_2 .slide[data-anchor="slide6"] {
+    background-image: url(../img/work_case_photos/field_photo_5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section_photo_2 .slide[data-anchor="slide7"] {
+    background-image: url(../img/work_case_photos/field_photo_6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fp-controlArrow {
+    z-index: 4;
+    top: 50%;
+    margin-top: -38px;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 4rem;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent rgba(255, 255, 255, 0.5) transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+    right: 4rem;
+    border-width: 38.5px 0 38.5px 34px;
+    /* border-color: transparent transparent transparent #fff; */
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.5);
+}
+
+.section_photo_3 {
+    /* background-image: url(../img/profile_photo_03.jpg); */
+}
+
+/* .section_photo_4 {
+    background-image: url(../img/profile_photo_03.jpg);
+} */
+
+
+#fp-nav ul li a span {
+    background-color: whitesmoke;
+}
+
+.icons {
+    margin: 20px 0;
+    color: blue;
+}
+
+.icons a {
+    background-image: url(../img/icons.png);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.icons a.twitter {
+    background-position: left top;
+
+}
+
+.icons a.facebook {
+    background-position: center top;
+}
+
+.icons a.pinterest {
+    background-position: right top;
+}
+
+.icons a:hover {
+    background-position-y: bottom;
+}
